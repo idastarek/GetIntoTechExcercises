@@ -1,6 +1,7 @@
 import random
 
-#generating and displaying 6 unique random lottery numbers from 1 to 50
+# generating 6 unique random lottery numbers from 1 to 50
+# storing them in a set and displaying them 
 
 lotto_set = set()
 while len(lotto_set) < 6:
